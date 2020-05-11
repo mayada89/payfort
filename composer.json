@@ -1,0 +1,29 @@
+{
+    "name": " mayada89/payfort",
+    "type": "library",
+    "description": "Online Payment Gatway",
+    "keywords": ["payment","payfort","gateway"],
+    "homepage": "https://github.com/mayada89/payfort",
+    "minimum-stability":"dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mayada.Fadl",
+            "email": "eng.maiada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/mayada89/payfort"
+        }
+    ]
+    ,
+    "autoload": {
+        "files": ["PayfortIntegration.php"]
+    }
+
+}
